@@ -23,9 +23,7 @@ hr {	width: 85%;}
 
 .articlebody {	
 	background-color: rgba(256, 256, 256, .3);
-	margin: auto; 
-	margin-top: 4%;  
-	overflow: hidden
+	margin-top: 4%;
 }
 
 a {	
@@ -270,13 +268,20 @@ a.link {
 /*************************************************************************/
 
 .artfond {
-	margin: auto;
+	/**margin: auto;
 	width: 75%; 
 	height: 100%;
 	background: white;
 	border-radius: .5em;
 	overflow: auto;
-	font-family: 'GT Welsheim Pro', sans-serif;	
+	font-family: 'GT Welsheim Pro', sans-serif;	**/
+	width: 70%; 
+	height: 100%;
+	margin: 0;
+	background: white; 
+	border-radius: .5em; 
+	font-family: 'GT Welsheim Pro';
+
 }
 
 .artititre {
@@ -284,7 +289,7 @@ a.link {
 	font-size: 3em; 
 	font-family: 'Canela-Light';
 	line-height: 1;
-	margin-bottom: 3%; margin-top: 3%;margin-left:0;
+	margin-bottom: 3%; margin-top: 3%; margin-left:0;
 	text-align:center;
 }
 
