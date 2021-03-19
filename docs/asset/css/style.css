@@ -15,9 +15,9 @@ En tête
 ::-webkit-scrollbar {	width: 0; background: transparent;}
 
 hr {	width: 85%;}
-
 .accueilbody {	
 	background-color: rgba(256, 256, 256, .3);
+	scroll-behavior: smooth;
 	
 }
 
@@ -348,18 +348,14 @@ a.link {
 
 
 .anchor {	
-	position: absolute; top: -70px;
+	position: absolute; top: -50px;
 }
 
 .sound, .play {	
 	color: white;
 }
 
-.scroll{  }
 .heart{ }
-.red {	color: red;}
-.fav {	opacity: 0; transition: all 1s;}
-.fav2 {	opacity: 100; transition: all 1s;}
 
 /*************************************************************************/
 
@@ -486,8 +482,8 @@ TILES ARTICLES
 
 .tile
 {
-  width:420px;
-  height:230px;
+  width:47%;
+  height:200px;
     
   margin:5px;
   background-color:rgb(255,0,0);
@@ -501,10 +497,11 @@ TILES ARTICLES
   color:white;
   font-family:'GT Walsheim Pro';
   
+  text-align: left;
 }
 .tile img
 {
-  width:100%;
+  height:100%;
   position:absolute;
   top:0;
   left:5;
@@ -517,7 +514,7 @@ TILES ARTICLES
   position:absolute;
   padding:30px;
   height:calc(100% - 60px);
- font-size: 9px;
+ font-size: 10px;
 }
 .tile h1
 {
