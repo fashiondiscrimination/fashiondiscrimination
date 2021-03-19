@@ -23,8 +23,8 @@ hr {	width: 85%;}
 
 .articlebody {	
 	background-color: rgba(256, 256, 256, .3);
-	margin-top: 4%;
-}
+	padding: 0 0 20px 0;
+	}
 
 a {	
 	color: black;
@@ -101,7 +101,7 @@ a.link {
 
 
 
-	#articles th, #divth, th {
+	#articles th, .divth, th {
 		font-size: 30px; 
 		font-family:'Canela-Light';
 		text-align: center;
@@ -109,7 +109,7 @@ a.link {
 		border-bottom: 0.3px solid #DCDCDC;
 		margin-bottom: 15px;
 		margin-top: 50x;
-		#divth {		
+		.divth {		
 			width: 100%;
 		}
 
@@ -232,12 +232,7 @@ a.link {
 
 
 .foot {
-	color: black; 
-	font-style: italic; 
-	text-align: center; 
-	font-family: 'Times', cursive; 
-	padding: 0; 
-	margin: auto;
+	padding:20px 0 0 0;
 }
 
 
@@ -251,7 +246,6 @@ a.link {
 	width: 70%; 
 	height: auto;
 	margin: 2% 0;
-	border-radius: .5em; 
 }
 
 
@@ -263,18 +257,10 @@ a.link {
 /*************************************************************************/
 
 .artfond {
-	/**margin: auto;
-	width: 75%; 
-	height: 100%;
-	background: white;
-	border-radius: .5em;
-	overflow: auto;
-	font-family: 'GT Welsheim Pro', sans-serif;	**/
 	width: 70%; 
 	height: 100%;
 	margin: 0;
 	background: white; 
-	border-radius: .5em; 
 	font-family: 'GT Welsheim Pro';
 
 }
@@ -565,9 +551,10 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 /*
 TILES ARTICLES
 */
-@media (max-width: 4f00px) {
+@media (max-width: 100px) {
   .wrap {
-   flex-direction: column;
+  display: flex;
+   flex-direction: row;
     justify-content: center;
     margin: 10px auto;
     position: absolute;
@@ -578,10 +565,10 @@ TILES ARTICLES
 
 .tile
 {
-  width:47%;
-  height:30%;
+  width:420px;
+  height:230px;
     
-  margin:8px;
+  margin:5px;
   background-color:rgb(255,0,0);
   display:inline-block;
   background-size:cover;
