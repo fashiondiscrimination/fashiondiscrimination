@@ -43,78 +43,16 @@ a.link {
 /*************************************************************************/
 
 
-#nouveautes {	
-	margin: auto; 
-	font-family: 'GT Walsheim Pro' ;
-	font-weight: 300;
-	border-spacing: 1em 1em; 
-	width: 100%;
-}
-
-	#nouveautes td {
-		padding: 1em;
-		background-size: cover;
-		background-repeat: no-repeat;
-		width: 50%;
-	}
-
-	#nouveautes td p {
-		padding: 2em; 
-		background: rgba(256, 256, 256, .8);
-		height: 5em;
-	}
-
-.buttontop {
-	margin: auto; 
-	border-spacing: 30px 0px; 
-	width: 100%
-}
-
-	.buttontop td {
-		width: 20%; 
-		padding: 5px; 
-		text-align: center; 
-		font-size: 18px; 
-		color: white; 
-		background: rgba(226, 224, 226, 1.0); 
-		transition: all 1s
-	}
-
-	#buttonpage1 td:hover {
-		background: rgba(0, 51, 255 , 1.0); 
-		transition: all 0.1s;
-	}
-
-	#buttonpage2 td:hover {
-		background: #f5e1c0; 
-		transition: all 1s
-		width:50%;
-	}
-
-#articles {
-	margin: auto; 
-	border-spacing: 5px; 
-	border-collapse: collapse;
-	width: 100%;
-}
-
-
-
-
- .divth {
+.divth {
 		font-size: 30px; 
 		font-family:'Canela-Light';
 		text-align: center;
 		color: black; 
 		border-bottom: 0.3px solid #DCDCDC;
 		margin-bottom: 15px;
-		margin-top: 50x;
-		.divth {		
+		margin-top: 50x;	
 			width: 100%;
-		}
-
-		
-	}
+}
 
 .ssdivth {
 		font-size: 20px; 
@@ -123,24 +61,9 @@ a.link {
 		color: black; 
 		margin-bottom: 5px;
 		margin-top: 20px;
-	}
+}
 
-	#articles td {
-		padding: 25px 30px;
-		text-align: center;
-		transition: all 1s;
-	}
 
-	#articles table td:hover {
-		background: rgba(221, 152, 15, 0.3); 
-		transition: all 1s;
-	}
-
-	#articles .thumbcorps {
-		padding: 0px 10px;
-		margin: auto;
-		width: auto;
-	}
 
 #contacttable, #propostable {
 	margin: auto; 
