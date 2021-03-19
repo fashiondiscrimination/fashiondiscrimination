@@ -54,7 +54,7 @@ a.link {
 			width: 100%;
 }
 
-.ssdivth {
+	#ssdivth {
 		font-size: 20px; 
 		font-family:'Canela-Light';
 		text-align: center;
@@ -169,8 +169,6 @@ a.link {
 	height: auto;
 	margin: 2% 0;
 }
-
-
 
 /*************************************************************************/
 
