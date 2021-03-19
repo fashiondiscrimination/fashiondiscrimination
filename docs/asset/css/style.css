@@ -23,7 +23,6 @@ hr {	width: 85%;}
 
 .articlebody {	
 	background-color: rgba(256, 256, 256, .3);
-	padding: 0 0 20px 0;
 	}
 
 a {	
@@ -178,10 +177,10 @@ a.link {
 
 .artfond {
 	width: 70%; 
-	height: 100%;
 	margin: 0;
 	background: white; 
 	font-family: 'GT Welsheim Pro';
+	padding: 0 100px 0 0;
 
 }
 
@@ -381,6 +380,26 @@ a.link {
 	}
 }
 
+/*************************************************************************/
+
+/**************************FLEX STYLE	**************************/
+
+/*************************************************************************/
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
 
 /*************************************************************************/
 
