@@ -43,22 +43,22 @@ a.link {
 
 
 .divth {
-		font-size: 30px; 
+		font-size: 35px; 
 		font-family:'Canela-Light';
 		text-align: center;
 		color: black; 
-		border-bottom: 0.3px solid #DCDCDC;
+		border-bottom: 0.5px solid #DCDCDC;
 		margin-bottom: 15px;
 		margin-top: 50x;	
 			width: 100%;
 }
 
 	#ssdivth {
-		font-size: 20px; 
+		font-size: 25px; 
 		font-family:'Canela-Light';
 		text-align: center;
 		color: black; 
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 		margin-top: 20px;
 }
 
