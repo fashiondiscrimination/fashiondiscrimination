@@ -149,7 +149,7 @@ a.link {
 	font-family: 'GT Pressura Mono Light Light';
 	color: black; 
 	text-align: justify; 
-	font-size: 1em;
+	font-size: 12px;
 	padding: 0 2em;
 }
 
@@ -191,7 +191,7 @@ a.link {
 	font-size: 3em; 
 	font-family: 'Canela-Light';
 	line-height: 1;
-	margin-bottom: 3%; margin-top: 3%; margin-left:0;
+	margin-bottom: 3%; margin-top: 4%; margin-left:0;
 	text-align:center;
 }
 
