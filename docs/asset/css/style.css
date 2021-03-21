@@ -11,10 +11,17 @@ En tête
 @import 'Font_1/font_stylesheet.css';
 @import url(//db.onlinewebfonts.com/c/966f3ed4332d5651f58424eb7c31d09f?family=Chap+Regular);
 
+@media (min-width: 768px) {
+        .hidediv {
+          display: none;
+        }
+      }
 
 ::-webkit-scrollbar {	width: 0; background: transparent;}
 
 hr {	width: 85%;}
+
+
 .accueilbody {	
 	background-color: rgba(256, 256, 256, .3);
 	scroll-behavior: smooth;
