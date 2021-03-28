@@ -7,9 +7,7 @@ font-family: 'Parisienne', cursive;
 En tête
 -------------------- */
 
-@import 'asset/css/font-awesome.min.css';
 @import 'Font_1/font_stylesheet.css';
-@import url(//db.onlinewebfonts.com/c/966f3ed4332d5651f58424eb7c31d09f?family=Chap+Regular);
 
 @media (min-width: 768px) {
         .hidediv {
@@ -140,7 +138,7 @@ a.link {
 	font-weight: 100;
 	color: black; 
 	text-align: justify; 
-	font-size: 0.95em;
+	font-size: 0.9em;
 	padding: 0 2em;
 }
 
@@ -165,6 +163,16 @@ a.link {
 	padding:20px 0 0 0;
 }
 
+
+.footnotes{
+	font-family: 'GT Pressura Mono Light Light';
+	color: black;
+	text-align: left; 
+	font-size: 0.5em;
+	border-top: 0.3px solid #DCDCDC;
+	margin-top: 15px;
+	padding: 5px;
+}
 
 /*************************************************************************/
 
