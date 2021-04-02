@@ -182,6 +182,17 @@ a.link {
 	padding: 5px;
 }
 
+.footnotes2{
+	font-family: 'GT Pressura Mono Light Light';
+	color: black;
+	text-align: left; 
+	font-size: 0.5em;
+	border-top: 0.3px solid #DCDCDC;
+	margin-top: 30px;
+	padding: 5px;
+	position: relative
+}
+
 /*************************************************************************/
 
 /**************************	mise en page	**************************/
