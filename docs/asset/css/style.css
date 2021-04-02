@@ -141,7 +141,15 @@ a.link {
 	padding: 0 2em;
 }
 
-
+.corps2 {
+	font-family: 'GT Walsheim Pro';
+	font-weight: 100;
+	color: black; 
+	text-align: justify; 
+	font-size: 0.95em;
+	padding: 0 2em;
+	margin-top: 30px;
+}
 
 .quote {
 	font-size: 1.5em;
@@ -658,14 +666,12 @@ TILES ARTICLES
    clip-path:ellipse(50% 50%);
 }
 
-div.figure {
-  float: right;
-  width: 30%;
-  text-align: center;
-  font-style: italic;
-  font-size: smaller;
-  text-indent: 0;
-  border: thin silver solid;
-  margin: 0.5em;
-  padding: 0.5em;
+
+
+#conteneur {
+	display:flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+
